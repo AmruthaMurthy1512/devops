@@ -1,0 +1,8 @@
+-
+ name: Execute a script on all web server nodes
+ hosts: all servers
+ tasks:
+   -
+     service: name=web1 state=started
+     when: ansible_host=='ec2-13-232-239-10.ap-south-1.compute.amazonaws.com'
+     

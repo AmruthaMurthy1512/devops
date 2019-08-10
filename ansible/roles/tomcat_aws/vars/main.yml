@@ -1,0 +1,7 @@
+---
+# vars file for tomcat_aws
+
+region: ap-south-1
+instance_type: t2.micro
+ami: ami-5b673c34 
+keypair: demo_aws
